@@ -1,0 +1,38 @@
+:root {
+  --md-primary-fg-color: #FBF9F7;
+  --md-accent-fg-color: #002569;
+  --md-primary-fg-color: #002569;
+
+  --training-navy: #002569;
+  --training-blue: #0073E0;
+  --training-medium-blue: #70bcff;
+  --training-teal: #78E2DA;
+  --training-light-blue: #002569;
+  --training-light-gray: #f5f7f9;
+  --training-dark-text: #243447;
+  --training-orange: #ff8834;
+  --training-dark-orange: #e65722;
+  --training-dark-teal: #037d98;
+  --light-blue: #c3e2ff;
+    --light-teal: #b1fff9;
+  --light-orange: #fcd2b4;
+
+}
+.md-typeset .admonition.question{
+    border-color:var(--training-blue);
+}
+.md-typeset .question>.admonition-title{
+    background-color: var(--light-blue);
+}
+.md-typeset .question>.admonition-title:before{
+    background-color: var(--training-blue);
+}
+.md-typeset .tip>.admonition-title{
+    background-color: var(--light-orange);
+}
+.md-typeset .admonition.tip{
+    border-color: var(--training-orange);
+}
+.md-typeset .tip>.admonition-title:before{
+    background-color: var(--training-orange);
+}
